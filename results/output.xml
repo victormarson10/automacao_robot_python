@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.8 on win32)" generated="2024-02-21T18:14:26.448366" rpa="false" schemaversion="5">
+<suite id="s1" name="Automacao Robot Python" source="D:\Treinamento Robot Sankhya\automacao_robot_python">
+<suite id="s1-s1" name="Aula2" source="D:\Treinamento Robot Sankhya\automacao_robot_python\Aula2.robot">
+<test id="s1-s1-t1" name="Imprime dicionario" line="13">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>FRUTAS.teste.log</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-21T18:14:26.512899" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-02-21T18:14:26.510762" elapsed="0.003148"/>
+</test>
+<status status="PASS" start="2024-02-21T18:14:26.506090" elapsed="0.010242"/>
+</suite>
+<status status="PASS" start="2024-02-21T18:14:26.457640" elapsed="0.062217"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Automacao Robot Python">Automacao Robot Python</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Aula2">Automacao Robot Python.Aula2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
