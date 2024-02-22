@@ -1,42 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0 (Python 3.11.8 on win32)" generated="2024-02-21T18:27:39.077766" rpa="false" schemaversion="5">
-<suite id="s1" name="Aula2" source="D:\Treinamento Robot Sankhya\automacao_robot_python\Aula2.robot">
-<test id="s1-t1" name="Imprime dicionario" line="13">
+<robot generator="Robot 7.0 (Python 3.11.8 on win32)" generated="2024-02-22T18:45:34.066947" rpa="false" schemaversion="5">
+<suite id="s1" name="Aula3 For" source="D:\Treinamento Robot Sankhya\automacao_robot_python\Aula3 For.robot">
+<test id="s1-t1" name="Imprime laço for" line="13">
+<kw name="Laço For">
+<for flavor="IN RANGE">
+<iter>
 <kw name="Log To Console" owner="BuiltIn">
-<arg>${PESSOA.nome}</arg>
+<arg>"Estou no numero ${count} de 0 a 9"</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-02-21T18:27:39.112500" elapsed="0.000000"/>
+<status status="PASS" start="2024-02-22T18:45:34.106400" elapsed="0.000000"/>
 </kw>
-<status status="PASS" start="2024-02-21T18:27:39.111492" elapsed="0.002491"/>
+<var name="${count}">0</var>
+<status status="PASS" start="2024-02-22T18:45:34.105175" elapsed="0.001225"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>"Estou no numero ${count} de 0 a 9"</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-22T18:45:34.107416" elapsed="0.000000"/>
+</kw>
+<var name="${count}">1</var>
+<status status="PASS" start="2024-02-22T18:45:34.107416" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>"Estou no numero ${count} de 0 a 9"</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-22T18:45:34.107416" elapsed="0.001033"/>
+</kw>
+<var name="${count}">2</var>
+<status status="PASS" start="2024-02-22T18:45:34.107416" elapsed="0.001033"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>"Estou no numero ${count} de 0 a 9"</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-22T18:45:34.108449" elapsed="0.000961"/>
+</kw>
+<var name="${count}">3</var>
+<status status="PASS" start="2024-02-22T18:45:34.108449" elapsed="0.000961"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>"Estou no numero ${count} de 0 a 9"</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-22T18:45:34.109410" elapsed="0.000000"/>
+</kw>
+<var name="${count}">4</var>
+<status status="PASS" start="2024-02-22T18:45:34.109410" elapsed="0.000996"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>"Estou no numero ${count} de 0 a 9"</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-22T18:45:34.110406" elapsed="0.000000"/>
+</kw>
+<var name="${count}">5</var>
+<status status="PASS" start="2024-02-22T18:45:34.110406" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>"Estou no numero ${count} de 0 a 9"</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-22T18:45:34.111407" elapsed="0.000000"/>
+</kw>
+<var name="${count}">6</var>
+<status status="PASS" start="2024-02-22T18:45:34.110406" elapsed="0.001001"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>"Estou no numero ${count} de 0 a 9"</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-22T18:45:34.111407" elapsed="0.000000"/>
+</kw>
+<var name="${count}">7</var>
+<status status="PASS" start="2024-02-22T18:45:34.111407" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>"Estou no numero ${count} de 0 a 9"</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-22T18:45:34.112924" elapsed="0.000000"/>
+</kw>
+<var name="${count}">8</var>
+<status status="PASS" start="2024-02-22T18:45:34.112924" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>"Estou no numero ${count} de 0 a 9"</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-22T18:45:34.112924" elapsed="0.001014"/>
+</kw>
+<var name="${count}">9</var>
+<status status="PASS" start="2024-02-22T18:45:34.112924" elapsed="0.001014"/>
+</iter>
+<var>${count}</var>
+<value>0</value>
+<value>10</value>
+<status status="PASS" start="2024-02-22T18:45:34.105175" elapsed="0.008763"/>
+</for>
+<status status="PASS" start="2024-02-22T18:45:34.105175" elapsed="0.008763"/>
+</kw>
+<status status="PASS" start="2024-02-22T18:45:34.105175" elapsed="0.009761"/>
 </test>
-<test id="s1-t2" name="Imprime Frutas" line="16">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>A fruta é ${FRUTAS}[0]</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-02-21T18:27:39.115412" elapsed="0.001006"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>A fruta é ${FRUTAS}[1]</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-02-21T18:27:39.116418" elapsed="0.000000"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>A fruta é ${FRUTAS}[2]</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-02-21T18:27:39.117924" elapsed="0.001013"/>
-</kw>
-<status status="PASS" start="2024-02-21T18:27:39.115412" elapsed="0.003525"/>
-</test>
-<status status="PASS" start="2024-02-21T18:27:39.078778" elapsed="0.042170"/>
+<status status="PASS" start="2024-02-22T18:45:34.068947" elapsed="0.047003"/>
 </suite>
 <statistics>
 <total>
-<stat pass="2" fail="0" skip="0">All Tests</stat>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="2" fail="0" skip="0" id="s1" name="Aula2">Aula2</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="Aula3 For">Aula3 For</stat>
 </suite>
 </statistics>
 <errors>
