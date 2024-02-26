@@ -1,18 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0 (Python 3.11.8 on win32)" generated="2024-02-21T18:14:26.448366" rpa="false" schemaversion="5">
+<robot generator="Robot 7.0 (Python 3.11.8 on win32)" generated="2024-02-26T18:45:11.572639" rpa="false" schemaversion="5">
 <suite id="s1" name="Automacao Robot Python" source="D:\Treinamento Robot Sankhya\automacao_robot_python">
-<suite id="s1-s1" name="Aula2" source="D:\Treinamento Robot Sankhya\automacao_robot_python\Aula2.robot">
-<test id="s1-s1-t1" name="Imprime dicionario" line="13">
+<suite id="s1-s1" name="Aula4 IF test" source="D:\Treinamento Robot Sankhya\automacao_robot_python\Aula4 IF test.robot">
+<test id="s1-s1-t1" name="Impressao IF" line="17">
+<kw name="Percorrer_if">
+<if>
+<branch type="IF" condition="${NUMERO}==5">
 <kw name="Log To Console" owner="BuiltIn">
-<arg>FRUTAS.teste.log</arg>
+<arg>${NUMERO}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-02-21T18:14:26.512899" elapsed="0.000000"/>
+<status status="NOT RUN" start="2024-02-26T18:45:11.619703" elapsed="0.000000"/>
 </kw>
-<status status="PASS" start="2024-02-21T18:14:26.510762" elapsed="0.003148"/>
+<status status="NOT RUN" start="2024-02-26T18:45:11.618291" elapsed="0.001412"/>
+</branch>
+<branch type="ELSE IF" condition="${NUMERO}==8">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${NUMERO}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2024-02-26T18:45:11.621044" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-02-26T18:45:11.619703" elapsed="0.001341"/>
+</branch>
+<status status="PASS" start="2024-02-26T18:45:11.618291" elapsed="0.002753"/>
+</if>
+<status status="PASS" start="2024-02-26T18:45:11.618291" elapsed="0.002753"/>
+</kw>
+<status status="PASS" start="2024-02-26T18:45:11.617283" elapsed="0.004770"/>
 </test>
-<status status="PASS" start="2024-02-21T18:14:26.506090" elapsed="0.010242"/>
+<status status="PASS" start="2024-02-26T18:45:11.611783" elapsed="0.011273"/>
 </suite>
-<status status="PASS" start="2024-02-21T18:14:26.457640" elapsed="0.062217"/>
+<status status="PASS" start="2024-02-26T18:45:11.580355" elapsed="0.044792"/>
 </suite>
 <statistics>
 <total>
@@ -22,7 +39,7 @@
 </tag>
 <suite>
 <stat pass="1" fail="0" skip="0" id="s1" name="Automacao Robot Python">Automacao Robot Python</stat>
-<stat pass="1" fail="0" skip="0" id="s1-s1" name="Aula2">Automacao Robot Python.Aula2</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Aula4 IF test">Automacao Robot Python.Aula4 IF test</stat>
 </suite>
 </statistics>
 <errors>
